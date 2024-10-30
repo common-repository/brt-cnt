@@ -1,0 +1,59 @@
+/* brt-cnt style v1.2 for Wordpress */
+.BrtCntLayout
+{
+    border: 0px;
+    margin-left:auto; 
+    margin-right:auto;
+    width: 500px;
+}
+.BrtCntLayout td
+{    
+    text-align: center;    
+    font-family: Verdana,Arial,Helvetica,sans-serif; 
+    border: 1px solid rgba(200, 200, 200, 1); 
+    background-color: rgba(255, 255, 255, 1); 
+    vertical-align:  middle; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -ms-border-radius: 5px; 
+    -o-border-radius: 5px; 
+    border-radius: 5px;
+    moz-box-shadow: rgba(200,200,200,1) 0 4px 18px;
+    -webkit-box-shadow: rgba(200, 200, 200, 1) 0 4px 18px;
+    -khtml-box-shadow: rgba(200,200,200,1) 0 4px 18px;
+    box-shadow: rgba(200, 200, 200, 1) 0 4px 18px;
+}
+.BrtCntHeader td
+{
+    font-size: 10px;  
+    padding: 2px;
+}
+.BrtCntDisplay td
+{    
+    background: url('BrtCntFace.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 1);
+    width: 10%;
+    height: 75px;     
+    font-size: 40px;
+    color: rgba(100, 100, 100, 1);
+}
+.BrtCntFooter td
+{
+    font-size: 9px;
+    color: rgba(100, 100, 100, 1);
+    padding: 2px;    
+}
+#content table  /*IMPORTANT OVERRIDE WORDPRESS DEFAULT CONTENT STYLE FOR TABLES*/
+{
+    border-collapse: inherit;
+    border-spacing: 2px;
+    border: 0px;
+    line-height: normal;
+}
+#content tr td
+{
+    border: 1px solid rgba(200, 200, 200, 1); 
+    padding: 0px 0px 0px 0px;
+}
